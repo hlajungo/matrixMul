@@ -9,7 +9,10 @@ v6 3.455363
 v7 3.314252
 v7 3.122158
 v8 2.952150
-
+v9 0.835628
+nvcc v9-cuda.cu -o v9
+v10 0.830407
+nvcc -O3 -use_fast_math -arch=sm_86 v9-cuda.cu -o v10
 
 
 
